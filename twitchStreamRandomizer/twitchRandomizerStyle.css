@@ -1,0 +1,50 @@
+﻿html, body
+{
+        background-color: white;
+        width: 300px;
+}
+
+#getStream
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 115px;
+    bottom: 10px;
+    border-radius: 100%;
+    background: #551A8B;
+    color: white;
+}
+
+h2 {
+    position:relative;
+    left: 10%;
+}
+
+h3{
+    position:relative;
+    left: 17%;
+}
+
+#viewerRange {
+    position: relative;
+    left: 20%;
+}
+
+.slider_inputs
+{
+    width: 42px;
+}
+
+#slider .noUi-connect {
+    background: #551A8B;
+}
+
+#slider {
+    width: 270px;
+    left: 5px;
+}
+
+.chosen-container .chosen-results {
+    max-height:225px;
+}

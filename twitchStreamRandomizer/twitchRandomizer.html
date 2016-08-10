@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+
+    <link href="nouislider.min.css" rel="stylesheet" />
+    <link href="chosen.min.css" rel="stylesheet" />
+    <link href="flatty.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="twitchRandomizerStyle.css" />
+
+
+</head>
+
+<body>
+
+    <h2>
+        Twitch Stream Randomizer
+    </h2>
+
+    <select data-placeholder="Select Games To Search" id="gamesSelect" multiple="multiple" class="chosen-select" style="width:285px;">
+    </select>
+
+    <br>
+
+    <h3>
+        Choose The Viewer Range:<br>
+    </h3>
+
+    <div id="viewerRange">
+        Min: <input type="text" id="minTextbox" class="slider_inputs" name="minValue"> Max: <input type="text" id="maxTextbox" class="slider_inputs" name="maxValue" value="7500">
+    </div>
+
+    <br>
+
+        <div id="slider"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <button id="getStream">GO!</button>
+
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="nouislider.min.js"></script>
+    <script src="chosen.jquery.min.js"></script>
+    <script src="humane.min.js"></script>
+    <script src="wNumb.js"></script>
+    <script src="twitchRandomizer.js"></script>
+</body>
+</html>
+
