@@ -1,4 +1,3 @@
-//Written By G. Huebner
 //August 8th, 2016
 
 $(document).ready(function () {
@@ -107,7 +106,7 @@ function parseGameResponse() {
 $('#getStream').click(function () {
     var slider = document.getElementById('slider');
     var range = slider.noUiSlider.get();
-    var invalid_characters = ["Á", "É", "Í", "Ó", "Ú", "İ", "á", "é", "í", "ó", "ú", "ı", "â", "ê", "î", "ô", "û", "Â", "Ê", "Î", "Ô", "Û"];
+    var invalid_characters = ["Ã", "Ã‰", "Ã", "Ã“", "Ãš", "Ã", "Ã¡", "Ã©", "Ã­", "Ã³", "Ãº", "Ã½", "Ã¢", "Ãª", "Ã®", "Ã´", "Ã»", "Ã‚", "ÃŠ", "Ã", "Ã”", "Ã›"];
     var selectedValues = $('.chosen-select').val();
     var i;
 
